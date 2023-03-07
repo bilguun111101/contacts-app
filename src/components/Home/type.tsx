@@ -1,11 +1,12 @@
 export type group = {
-    contact: {
+    contact?: {
       countryCode: string,
       digits: string,
       id: string,
       label: string,
       number: string,
     }[],
+    number: string,
     letter: string
 }
 export type content = {
